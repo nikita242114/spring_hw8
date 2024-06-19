@@ -1,0 +1,30 @@
+application:
+  max-allowed-books: 2
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mydb
+    username: nikita
+    password: 1234
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+#spring:
+#  datasource:
+#    url: jdbc:postgresql://localhost:5431/nikitadb
+#    username: nikita
+#    password: 1234
+#    driver-class-name: org.postgresql.Driver
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#spring:
+#  datasource:
+#    url: jdbc:h2:mem:test
+#    username: sa
+#    password:
+#    driver-class-name: org.h2.Driver
